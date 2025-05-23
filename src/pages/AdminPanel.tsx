@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -7,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Users, DollarSign, BarChart2, UserCheck, Building, Shield, Search, CheckCircle, XCircle, Settings } from 'lucide-react';
+import { Calendar, Users, DollarSign, BarChart2, UserCheck, Building, Shield, Search, CheckCircle, XCircle, Settings, Clock } from 'lucide-react';
 
 const AdminPanel = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
