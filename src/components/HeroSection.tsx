@@ -76,7 +76,7 @@ const HeroSection = () => {
         <div className="mt-16 relative animate-float">
           <div className="relative max-w-4xl mx-auto">
             <div className="aspect-video bg-gradient-to-br from-purple-200 to-blue-200 rounded-2xl shadow-2xl overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-purple-400/20 to-blue-400/20 flex items-center justify-center">
+              <div className="w-full h-full bg-gradient-to-br from-purple-400/20 to-blue-400/20 flex items-center justify-center bg-yellow-300">
                 <div className="text-center">
                   <div className="w-24 h-24 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                     <Calendar className="w-12 h-12 text-white" />
