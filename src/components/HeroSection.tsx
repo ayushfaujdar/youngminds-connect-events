@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-amber-100">
         <div className="text-center">
           {/* Badge */}
-          <Badge className="mb-6 bg-purple-100 text-purple-700 border-purple-200 animate-scale-in">
+          <Badge className="mb-6 text-purple-700 border-purple-200 animate-scale-in bg-amber-300">
             🎉 Join 10,000+ Young Professionals
           </Badge>
           
@@ -87,8 +87,8 @@ const HeroSection = () => {
             </div>
             
             {/* Floating Elements */}
-            <div className="absolute -top-4 -left-4 w-16 h-16 bg-purple-400 rounded-full animate-bounce opacity-80"></div>
-            <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-indigo-400 rounded-full animate-pulse opacity-80"></div>
+            <div className="absolute -top-4 -left-4 w-16 h-16 rounded-full animate-bounce opacity-80 bg-amber-500"></div>
+            <div className="absolute -bottom-4 -right-4 w-12 h-12 rounded-full animate-pulse opacity-80 bg-amber-500"></div>
             <div className="absolute top-1/2 -right-8 w-8 h-8 bg-blue-400 rounded-full animate-ping opacity-60"></div>
           </div>
         </div>
