@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -95,18 +96,22 @@ const EventsSection = () => {
                   </div>
                 </div>
                 
-                <Button className="w-full gradient-bg text-white">
-                  Register Now
-                </Button>
+                <Link to={`/event/${event.id}`}>
+                  <Button className="w-full gradient-bg text-white">
+                    Register Now
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
         </div>
         
         <div className="text-center">
-          <Button size="lg" variant="outline" className="px-8 py-4">
-            View All Events
-          </Button>
+          <Link to="/events">
+            <Button size="lg" variant="outline" className="px-8 py-4">
+              View All Events
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

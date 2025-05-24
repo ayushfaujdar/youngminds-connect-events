@@ -12,6 +12,11 @@ import Contact from "./pages/Contact";
 import OrganizerPanel from "./pages/OrganizerPanel";
 import AdminPanel from "./pages/AdminPanel";
 import NotFound from "./pages/NotFound";
+import EventDetail from "./pages/EventDetail";
+import CreateEvent from "./pages/CreateEvent";
+import Support from "./pages/Support";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +34,11 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/organizer" element={<OrganizerPanel />} />
           <Route path="/admin" element={<AdminPanel />} />
+          <Route path="/event/:id" element={<EventDetail />} />
+          <Route path="/create-event" element={<CreateEvent />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
